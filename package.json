@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon src/server.ts",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "postinstall": "husky install",
+    "prepare": "husky"
   },
   "keywords": [
     "microservicees"
@@ -17,6 +19,7 @@
     "@eslint/js": "^9.19.0",
     "@types/node": "^22.12.0",
     "eslint": "^9.19.0",
+    "husky": "^9.1.7",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.22.0"
   },
