@@ -28,6 +28,6 @@
     "nodemon": "^3.1.9"
   },
   "lint-staged": {
-    "*.ts": ["npm run lint:fix"]
+    "*.ts": ["npm run lint:fix","npm run lint"]
   }
 }
