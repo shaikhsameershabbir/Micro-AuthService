@@ -25,6 +25,7 @@ export default tseslint.config(
         rules: {
             "no-console": "warn",
             "dot-notation": "error", // Fixed the typo from "dot-botation" to "dot-notation"
+            "no-misused-promises": "off"
         },
     },
     {
