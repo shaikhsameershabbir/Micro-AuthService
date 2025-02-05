@@ -11,6 +11,12 @@
  * 
  * 
  * 
+ app.spec.ts  
+
+ supertest for integration test 
+ 
+ * 
+ * 
  * 
  * 
  * 
