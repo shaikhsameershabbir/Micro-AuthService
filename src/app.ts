@@ -3,7 +3,8 @@ import { errorHandler } from './middlewares/globalErrorHandler';
 const app = express();
 
 app.get('/', async (req, res) => {
-    res.status(200).send('Hello World');
+    //
+    res.status(200).send('Hello smasher');
 });
 
 // global error handler 
