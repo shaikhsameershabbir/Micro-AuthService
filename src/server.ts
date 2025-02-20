@@ -9,7 +9,7 @@ const startServer = () => {
     try {
         app.listen(PORT, () => {
 
-            console.log('smasger')
+            console.log('smasher')
             logger.info(`Server is running on port ${PORT}`);
         });
     } catch (error) {
