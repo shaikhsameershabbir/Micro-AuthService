@@ -62,6 +62,26 @@ npm test
 ```bash
 npm run dev
 ```
+### run project in docker 
+```bash
+   docker build -t auth-service:dev -f docker/dev/DocketFile .
+```
+### check docker images 
+```bash
+   docker image ls
+```
+### Run express in docket image with port binding and sourcecode sync 
+```bash
+  docker run --rm -it -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules --env-file ${PWD}/.env -p 5555:5555 -e NODE_ENV=development auth-service:dev
+```
+### list the running containers 
+```bash
+   docker ps command  
+```
+### then choose docker container which you are willing to stop and then run 
+```bash
+   docker stop <container id>
+```
 
 ## Development Standards
 ### Husky
